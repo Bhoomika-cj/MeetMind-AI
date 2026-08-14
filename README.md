@@ -2,13 +2,34 @@
 
 ```
 $ whoami
+># 🧠 MeetMind AI
+
+$ whoami
 > MeetMind AI — Intelligent Meeting Action-Item Extractor
 
 $ tagline --show
 > "Turn messy meetings into organized action."
-```
 
 [Live Demo — Add after deployment]
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard
+![MeetMind AI Dashboard](assets/dashboard.png)
+
+### 📝 Meeting Brief
+![Meeting Brief](assets/meeting-brief.png)
+
+### ✏️ Action Items
+![Action Items](assets/action-items.png)
+
+### 📊 Analytics
+![Analytics](assets/analytics.png)
+
+### 📥 Export
+![Export](assets/export.png)
 
 ---
 
