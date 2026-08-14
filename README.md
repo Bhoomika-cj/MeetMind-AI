@@ -1,12 +1,12 @@
 # 🧠 MeetMind AI
 
-```
-
+```text
 $ whoami
 > MeetMind AI — Intelligent Meeting Action-Item Extractor
 
 $ tagline --show
 > "Turn messy meetings into organized action."
+```
 
 [Live Demo — Add after deployment]
 
