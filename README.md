@@ -1,8 +1,6 @@
 # 🧠 MeetMind AI
 
 ```
-$ whoami
-># 🧠 MeetMind AI
 
 $ whoami
 > MeetMind AI — Intelligent Meeting Action-Item Extractor
