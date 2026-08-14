@@ -291,6 +291,6 @@ $ status --final
 > Core app: implemented
 > AI integration: implemented
 > Dashboard / data editor / analytics: implemented
-> Deployment: pending (student action required)
-> Live demo: [Live Demo — Add after deployment]
+> Deployment: completed
+> Live demo: [🚀 Live Demo](https://meetmind-ai-wfrrknmem4jie47j9lq9f5.streamlit.app/)
 ```
