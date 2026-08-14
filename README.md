@@ -1,5 +1,4 @@
 # 🧠 MeetMind AI
-# 🧠 MeetMind AI
 
 ```
 
