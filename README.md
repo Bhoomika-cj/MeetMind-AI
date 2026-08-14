@@ -8,7 +8,7 @@ $ tagline --show
 > "Turn messy meetings into organized action."
 ```
 
-[Live Demo — Add after deployment]
+[🚀 Live Demo](https://meetmind-ai-wfrrknmem4jie47j9lq9f5.streamlit.app/)
 
 ---
 
@@ -287,10 +287,13 @@ API key available there) and is left for you to confirm locally:
 ---
 
 ```
+```text
 $ status --final
 > Core app: implemented
 > AI integration: implemented
 > Dashboard / data editor / analytics: implemented
 > Deployment: completed
-> Live demo: [🚀 Live Demo](https://meetmind-ai-wfrrknmem4jie47j9lq9f5.streamlit.app/)
+```
+
+> **Live demo:** [🚀 Live Demo](https://meetmind-ai-wfrrknmem4jie47j9lq9f5.streamlit.app/)
 ```
