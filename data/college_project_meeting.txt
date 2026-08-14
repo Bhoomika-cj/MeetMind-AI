@@ -1,0 +1,85 @@
+MeetMind AI Capstone — Group Sync
+Attendees: Ananya, Rohit, Priya, Kunal, (Devansh joined late)
+
+Ananya: okay so are we recording, uh yeah let's just start. So um, we need to
+figure out where we are on the capstone before the review on the 25th.
+
+Rohit: yeah so I finished the transcript parsing part mostly, like the basic
+version. still need to handle the messy formatting cases though, some
+transcripts have timestamps and some don't
+
+Priya: wait can you send me that file, I want to test it with the marketing
+transcript
+
+Rohit: yeah I'll push it to github tonight
+
+Ananya: ok cool. what about the UI, priya weren't you doing the dashboard
+
+Priya: yes I started it, the metrics cards are done, I still need to do the
+charts. honestly plotly is confusing me a little but I'll figure it out by
+friday
+
+Kunal: I can help with that if you want, I used plotly for the DBMS project
+
+Priya: oh yeah that would help a lot actually
+
+Ananya: ok so kunal you're helping priya with the charts by friday. priya
+you're leading that
+
+Rohit: what about the readme and the architecture diagram, who's doing that
+
+(silence)
+
+Ananya: ...ok nobody said anything so I guess that's still open. someone
+needs to own that, it's part of the rubric, 10 marks for github stuff
+
+Priya: I can maybe do it after the charts are done, so like next week
+
+Ananya: alright, priya - charts by friday, readme + architecture after that,
+say by next wednesday
+
+Kunal: also we should double check the gemini api key isn't committed to
+github, last time someone almost pushed it in the sprint project
+
+Rohit: yeah good point, I'll add the gitignore properly
+
+Devansh: sorry I'm late, what did I miss
+
+Ananya: we're behind on the readme and docs. also devansh weren't you
+supposed to write the sample transcripts
+
+Devansh: oh right, yeah I have two done, marketing one is still rough. I'll
+clean it up
+
+Ananya: by when though
+
+Devansh: uh, this week I guess, before the weekend
+
+Ananya: ok. one more thing — we still haven't decided if we're using
+st.data_editor or a custom table component for editing tasks
+
+Rohit: data_editor for sure, custom would take too long and the deadline is
+close
+
+Kunal: agreed, data_editor is fine, it already supports dropdowns
+
+Ananya: ok decided then, we're using st.data_editor, not building a custom
+component. that saves us time
+
+Priya: are we deploying to streamlit cloud or somewhere else
+
+Ananya: streamlit cloud, no discussion needed on that, it was already
+decided last week
+
+Rohit: cool. also just flagging - the transcript parser breaks on very short
+inputs, like under 40 characters, we should handle that gracefully instead
+of crashing
+
+Ananya: good catch, add that to error handling, whoever's touching that file
+next should fix it
+
+Kunal: I can take that quickly since I'm in the analytics file anyway,
+not exactly the parser but related
+
+Ananya: ok. I think that's it, let's sync again before the deadline on the
+25th. anything else? no? ok bye

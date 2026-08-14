@@ -1,0 +1,86 @@
+Sprint 14 Standup — Platform Team
+Present: Meera (lead), Arjun, Sana, Vikram, Tom (QA)
+
+Meera: alright let's keep this quick, standard standup, blockers first.
+Arjun what's your status
+
+Arjun: so the auth refactor is basically done, PR is up, just waiting on
+review. um, I think Vikram was gonna review it?
+
+Vikram: yeah I'll get to it today, probably this afternoon
+
+Meera: ok Vikram - review Arjun's PR today. Arjun anything blocking you
+after that
+
+Arjun: not blocking exactly but I need someone to confirm the token
+expiry behavior with the mobile team before I close it out, that's still
+open
+
+Meera: sana can you reach out to mobile team about that
+
+Sana: I don't really have contact with them, maybe tom knows someone
+
+Tom: yeah I'll ping their lead, I'll do that after this call
+
+Meera: ok tom - reach out to mobile team lead about token expiry, today
+ideally
+
+Sana: on my end, the payments webhook is still flaky in staging, I spent
+most of yesterday on it. found the root cause I think — it's a race
+condition when two webhooks fire close together
+
+Meera: is that a blocker for release
+
+Sana: yeah kind of, we can't ship the payments feature with that bug
+
+Meera: ok that's a blocker, sana keep on that, priority high obviously.
+do you have an eta
+
+Sana: maybe end of week, I'm fairly confident now that I found the cause
+
+Meera: ok, end of week for the webhook fix. Vikram besides the PR review
+what else
+
+Vikram: I finished the caching layer, deployed to staging yesterday, no
+issues so far. also started looking at the flaky e2e tests but haven't
+made progress there yet, not sure who has bandwidth for that
+
+Meera: let's leave the e2e tests for next sprint honestly, we have enough
+on our plate
+
+Vikram: agreed
+
+Meera: tom, QA status?
+
+Tom: regression pass on the last release is done, all green. I found one
+minor UI bug on the settings page though, low priority, dropdown overlaps
+on smaller screens
+
+Meera: ok log it, someone can pick it up whenever, low priority
+
+Tom: already logged it in the tracker
+
+Meera: cool. one thing I want to flag - we decided last week to postpone
+the notifications feature to next sprint, just confirming that's still
+the plan
+
+Arjun: yeah agreed, not enough bandwidth this sprint
+
+Meera: confirmed then, notifications pushed to next sprint. also we
+decided today that we're not doing the e2e test cleanup this sprint
+either, moved to backlog
+
+Sana: quick question - are we still targeting thursday for the release
+cut or has that moved
+
+Meera: still targeting thursday, no change there
+
+Sana: ok good, just checking
+
+Meera: last thing, I need someone to update the sprint board with all
+these action items before end of day, arjun can you do that since you're
+already in there
+
+Arjun: sure, I'll update it today
+
+Meera: great, that's everything, thanks all
